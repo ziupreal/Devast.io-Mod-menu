@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Ziup's Devast.io ModMenu
+// @name         Devast.io ModMenu
 // @namespace    https://github.com/ziupreal/
 // @version      0.2
 // @description  A mod menu for devast.io this version contains auto loot spin macro night vision better cursor for pvp that renders a line to it and keystrokes
@@ -95,7 +95,7 @@
     const menu = document.createElement("div");
     menu.id = "ziup-menu";
     menu.innerHTML = `
-        <div id="ziup-header">☢ Ziup's ModMenu ☢</div>
+        <div id="ziup-header">☢ Ziup Client ☢</div>
         <div class="ziup-option" id="opt-keystrokes">Toggle Keystrokes</div>
         <div class="ziup-option" id="opt-autoloot">Toggle Auto Loot(F4)</div>
         <div class="ziup-option" id="opt-cursor">Toggle PvP Cursor</div>
